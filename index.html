@@ -46,8 +46,7 @@
           <span class="text-primary">together</span>
         </h1>
         <p class="lead">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
-          voluptatibus debitis praesentium inventore, eum deserunt.
+          A COACH CAN HELP YOU FIND YOUR FOCUS AND ACHIEVE YOUR GOALS
         </p>
         <a href="#what" class="btn">Read More</a>
       </div>
@@ -65,8 +64,8 @@
             <div>
               <h3>Personal Coaching</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Architecto, voluptatum!
+                Personal Coaching is based on the principle of helping people
+                determine and achieve personal goals and objectives.
               </p>
             </div>
           </div>
@@ -75,8 +74,8 @@
             <div>
               <h3>Neuro-linguistics</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Architecto, voluptatum!
+                NLP will bring changes to your perception with effective and
+                responsible communication.
               </p>
             </div>
           </div>
@@ -85,8 +84,8 @@
             <div>
               <h3>Chakra System Assistant</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Architecto, voluptatum!
+                the Chakra System helps to explain the movement of this life
+                force or “energy”, and can help us understand ourselves.
               </p>
             </div>
           </div>
@@ -96,50 +95,62 @@
 
     <!-- Section: Who We Are -->
     <section id="who">
-      <div class="who-img"></div>
+      <div>
+        <img src="./img/me.jpg" alt="me" class="who-img" />
+      </div>
       <div class="who-text bg-dark p-2">
         <h2 class="m-heading">
           <span class="text-primary">Who</span> I am and
           <span class="text-primary">What</span> I do
         </h2>
-        <h3>Dr. Dženis H.</h3>
+        <h3>Dr. Aaliyah Gates</h3>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora
-          culpa harum voluptas ratione enim consequuntur illo, atque, aut
-          doloribus unde repellendus sit delectus beatae aspernatur placeat
-          corrupti. Ipsa, itaque quas.
+          A LIFE DEDICATED TO HELPING INDIVIDUALS AND BUSINESSES SUCCEED.
         </p>
-        <h3 class="text-primary">Certifications:</h3>
+        <h3 class="text-primary">I offer some of the following:</h3>
         <ul class="list">
-          <li>NLP Professional</li>
-          <li>Peronal Coaching Training</li>
-          <li>ServeSafe Certification</li>
+          <li>Peronal Coaching</li>
+          <li>NLP Therapy</li>
+          <li>Behavioral Therapy</li>
+          <li>Chakra Guidance</li>
         </ul>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora
-          culpa harum voluptas ratione enim consequuntur illo, atque, aut
-          doloribus unde repellendus sit delectus beatae aspernatur placeat
-          corrupti. Ipsa, itaque quas.
-        </p>
+        <h3 class="text-primary">I'll help you with:</h3>
+        <ul class="list">
+          <li>Your personal goals</li>
+          <li>Your love life</li>
+          <li>Your business adventures</li>
+          <li>Your phobias, fears, and doubts</li>
+        </ul>
       </div>
     </section>
 
-    <!-- Section: Clients -->
-    <section id="clients" class="py-1">
-      <div class="container">
-        <h2 class="m-heading text-center">
-          Some of my
-          <span class="text-primary">Clients</span>
-        </h2>
-        <div class="items py-1">
-          <div><img src="./img/logos/logo1.png" alt="Client" /></div>
-          <div><img src="./img/logos/logo2.png" alt="Client" /></div>
-          <div><img src="./img/logos/logo3.png" alt="Client" /></div>
-          <div><img src="./img/logos/logo4.png" alt="Client" /></div>
-          <div><img src="./img/logos/logo5.png" alt="Client" /></div>
-        </div>
+    <div class="container">
+      <h2 class="text-center">What do people say:</h2>
+      <div class="testimonials">
+        <ul>
+          <li>
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkSflTI9DIJAstZ8fesrSz70HR8oH9BN_d8w0cjGEtiZyqDcs8"
+            />
+            <p>
+              "It's exactly what I've been looking for. She gave me all the
+              drive I was missing."
+            </p>
+            <h1 class="text-primary">Martin Kovaks</h1>
+          </li>
+          <li>
+            <img
+              src="https://i.pinimg.com/236x/2d/e5/7f/2de57f8025bd64dffd554de0f080ee7f--my-pinterest-pinterest-board.jpg?b=t"
+            />
+            <p>
+              "I would be lost without her personal help. Definitely worth the
+              investment."
+            </p>
+            <h1 class="text-primary">Adrea Glauber</h1>
+          </li>
+        </ul>
       </div>
-    </section>
+    </div>
 
     <!-- Section: Contact -->
     <section id="contact">
@@ -149,7 +160,7 @@
           Please use the form below to contact me in order for us to make a
           reasonable appointment
         </p>
-        <form>
+        <form onsubmit="return alert('Thank you for reaching out.');">
           <div class="form-group">
             <label for="name">Name</label>
             <input type="text" name="name" id="name" placeholder="Enter Name" />
@@ -180,12 +191,14 @@
               placeholder="Enter Message"
             ></textarea>
           </div>
-          <input type="submit" value="Send" class="btn btn-dark" />
+          <!-- <input value="Submit" class="btn btn-dark" /> -->
+          <input type="submit" class="btn btn-dark" />
         </form>
       </div>
-      <div class="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d92005.31653245274!2d18.31295121545814!3d43.893825619004346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4758cbb1ed719bd1%3A0x562ecda6de87b33e!2sSarajevo!5e0!3m2!1sen!2sba!4v1566144175818!5m2!1sen!2sba" width="900" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
-      </div>
+      <iframe
+        class="map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d92005.31653245274!2d18.31295121545814!3d43.893825619004346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4758cbb1ed719bd1%3A0x562ecda6de87b33e!2sSarajevo!5e0!3m2!1sen!2sba!4v1566144175818!5m2!1sen!2sba"
+      ></iframe>
     </section>
 
     <!-- Footer -->
@@ -217,6 +230,5 @@
       async
       defer
     ></script> -->
-
   </body>
 </html>
