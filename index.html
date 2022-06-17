@@ -35,9 +35,11 @@
         <li><a href="#home">Home</a></li>
         <li><a href="#what">What</a></li>
         <li><a href="#who">Who</a></li>
+        <li><a href="#clients">Clients</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
+
     <!-- Header: Showcase -->
     <header id="showcase">
       <div class="showcase-content">
@@ -56,7 +58,7 @@
     <section id="what" class="bg-light py-1">
       <div class="container">
         <h2 class="m-heading text-center">
-          <span class="text-primary">What</span> I Do
+          <span class="text-primary xo">What</span> I Do
         </h2>
         <div class="items">
           <div class="item">
@@ -124,33 +126,38 @@
       </div>
     </section>
 
-    <div class="container">
-      <h2 class="text-center">What do people say:</h2>
-      <div class="testimonials">
-        <ul>
-          <li>
-            <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkSflTI9DIJAstZ8fesrSz70HR8oH9BN_d8w0cjGEtiZyqDcs8"
-            />
-            <p>
-              "It's exactly what I've been looking for. She gave me all the
-              drive I was missing."
-            </p>
-            <h1 class="text-primary">Martin Kovaks</h1>
-          </li>
-          <li>
-            <img
-              src="https://i.pinimg.com/236x/2d/e5/7f/2de57f8025bd64dffd554de0f080ee7f--my-pinterest-pinterest-board.jpg?b=t"
-            />
-            <p>
-              "I would be lost without her personal help. Definitely worth the
-              investment."
-            </p>
-            <h1 class="text-primary">Adrea Glauber</h1>
-          </li>
-        </ul>
+    <!-- Section: Testemonials -->
+    <section id="clients">
+      <div class="testimonials__container">
+        <h2 class="text-center people">
+          What do <span class="text-primary">people</span> say:
+        </h2>
+        <div class="testimonials">
+          <ul>
+            <li>
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkSflTI9DIJAstZ8fesrSz70HR8oH9BN_d8w0cjGEtiZyqDcs8"
+              />
+              <p>
+                "It's exactly what I've been looking for. She gave me all the
+                drive I was missing."
+              </p>
+              <h1 class="text-primary">Martin Kovaks</h1>
+            </li>
+            <li>
+              <img
+                src="https://i.pinimg.com/236x/2d/e5/7f/2de57f8025bd64dffd554de0f080ee7f--my-pinterest-pinterest-board.jpg?b=t"
+              />
+              <p>
+                "I would be lost without her personal help. Definitely worth the
+                investment."
+              </p>
+              <h1 class="text-primary">Adrea Glauber</h1>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
+    </section>
 
     <!-- Section: Contact -->
     <section id="contact">
@@ -163,7 +170,13 @@
         <form onsubmit="return alert('Thank you for reaching out.');">
           <div class="form-group">
             <label for="name">Name</label>
-            <input type="text" name="name" id="name" placeholder="Enter Name" />
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Enter your name"
+              required
+            />
           </div>
           <div class="form-group">
             <label for="email">Email</label>
@@ -171,7 +184,8 @@
               type="email"
               name="email"
               id="email"
-              placeholder="Enter Email"
+              placeholder="Enter your Email"
+              required
             />
           </div>
           <div class="form-group">
@@ -180,7 +194,7 @@
               type="text"
               name="phone"
               id="phone"
-              placeholder="Enter Phone Number"
+              placeholder="Enter your phone number"
             />
           </div>
           <div class="form-group">
@@ -188,10 +202,11 @@
             <textarea
               name="message"
               id="message"
-              placeholder="Enter Message"
+              placeholder="Enter a message"
+              required
             ></textarea>
           </div>
-          <!-- <input value="Submit" class="btn btn-dark" /> -->
+
           <input type="submit" class="btn btn-dark" />
         </form>
       </div>

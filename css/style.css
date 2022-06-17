@@ -33,6 +33,7 @@ p {
 
 .text-primary {
   color: #c15bd8;
+  text-shadow: 1px 1px 2px #444;
 }
 
 .bg-light {
@@ -211,20 +212,22 @@ img {
   background: url("../img/me.png") no-repeat center center/cover;
 }
 
-/* Section: Clients */
-#clients .items {
-  display: flex;
-}
-
-#clients .items img {
-  display: block;
-  margin: auto;
-  width: 60%;
-}
-
 /* Section: Contact */
 #contact {
   display: flex;
+}
+
+.contact-form {
+  border: 2px solid #212121;
+}
+
+.people {
+  margin-top: 1rem;
+}
+
+.map {
+  border: 2px solid #682377;
+  border-left: none;
 }
 
 #contact .map,
@@ -274,7 +277,7 @@ img {
 
 .testimonials ul {
   list-style: none;
-  padding: 0;
+  padding: 1rem;
 }
 
 .testimonials li {
@@ -326,45 +329,4 @@ img {
 
 .testimonials li:hover img {
   box-shadow: 0px 0px 0px 2px #fff;
-}
-
-@media only screen and (max-width: 860px) {
-  .testimonials li {
-    width: 70%;
-    margin: auto;
-    display: block;
-    margin-top: 70px;
-  }
-
-  .testimonials li:first-child {
-    margin-top: 50px;
-  }
-}
-
-.container {
-  display: block;
-  width: 70%;
-  margin: auto;
-  height: 100%;
-  margin-top: 20px;
-  /* text-align: justify; */
-}
-
-@media only screen and (max-width: 750px) {
-  .container {
-    width: 90%;
-  }
-}
-
-.container h1,
-h2,
-h3 {
-  margin-top: 15px;
-  margin-left: 0;
-  font-weight: 400;
-}
-
-.container span {
-  color: #757575;
-  font-weight: 600;
 }

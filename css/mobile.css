@@ -58,7 +58,6 @@
 
   #contact .map {
     height: 200px;
-    border-top: 4px solid #333;
   }
 }
 
@@ -76,4 +75,48 @@
     font-size: 1rem;
     text-shadow: 1px 2px 3px #444;
   }
+}
+
+/* Testimonials */
+@media only screen and (max-width: 860px) {
+  .testimonials li {
+    width: 70%;
+    margin: auto;
+    display: block;
+    margin-top: 70px;
+  }
+
+  .testimonials li:first-child {
+    margin-top: 50px;
+  }
+}
+
+.testimonials__container {
+  display: block;
+  width: 70%;
+  margin: auto;
+  height: 100%;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 750px) {
+  .testimonials__container {
+    width: 90%;
+  }
+}
+
+h2.testimonials__container h1,
+h3 {
+  margin-top: 15px;
+  margin-left: 0;
+  font-weight: 400;
+}
+
+span.testimonials__container {
+  color: #757575;
+  font-weight: 600;
+}
+
+.people {
+  margin-top: 1rem;
 }
