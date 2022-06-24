@@ -330,3 +330,21 @@ img {
 .testimonials li:hover img {
   box-shadow: 0px 0px 0px 2px #fff;
 }
+
+#testimonial {
+  background: #f1f1f1;
+  padding: 50px 0 30px 0;
+  text-align: center;
+  margin-top: 40px;
+}
+
+#testimonial p {
+  font-size: 1.6rem;
+  font-family: "Josefin Sans";
+  color: #000;
+}
+
+#testimonial p.customer {
+  font-size: 1.2rem;
+  color: #666;
+}
