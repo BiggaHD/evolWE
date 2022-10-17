@@ -10,16 +10,16 @@
       integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="../css/style.css" />
     <link
       rel="stylesheet"
       media="screen and (max-width: 768px)"
-      href="css/mobile.css"
+      href="../css/mobile.css"
     />
     <link
       rel="stylesheet"
       media="screen and (min-width: 1100px)"
-      href="css/widescreen.css"
+      href="../css/widescreen.css"
     />
     <title>evolWE | Peronal Coaching & NLP</title>
   </head>
@@ -98,7 +98,7 @@
     <!-- Section: Who We Are -->
     <section id="who">
       <div>
-        <img src="./img/me.jpg" alt="me" class="who-img" />
+        <img src="../img/me.jpg" alt="me" class="who-img" />
       </div>
       <div class="who-text bg-dark p-2">
         <h2 class="m-heading">
@@ -126,6 +126,7 @@
       </div>
     </section>
 
+    <section id="clients">
     <div class="testimonials">
       <ul>
         <li>
@@ -154,6 +155,7 @@
 </section>
 
     <!-- Section: Contact -->
+   
     <section id="contact">
       <div class="contact-form bg-primary p-2">
         <h2 class="m-heading">Contact Me</h2>
@@ -161,16 +163,10 @@
           Please use the form below to contact me in order for us to make a
           reasonable appointment
         </p>
-        <form onsubmit="return alert('Thank you for reaching out.');">
+        <form>
           <div class="form-group">
             <label for="name">Name</label>
-            <input
-              type="text"
-              name="name"
-              id="name"
-              placeholder="Enter your name"
-              required
-            />
+            <input type="text" name="name" id="name" placeholder="Enter Name" />
           </div>
           <div class="form-group">
             <label for="email">Email</label>
@@ -178,8 +174,7 @@
               type="email"
               name="email"
               id="email"
-              placeholder="Enter your Email"
-              required
+              placeholder="Enter Email"
             />
           </div>
           <div class="form-group">
@@ -188,7 +183,7 @@
               type="text"
               name="phone"
               id="phone"
-              placeholder="Enter your phone number"
+              placeholder="Enter Phone Number"
             />
           </div>
           <div class="form-group">
@@ -196,30 +191,29 @@
             <textarea
               name="message"
               id="message"
-              placeholder="Enter a message"
-              required
+              placeholder="Enter Message"
             ></textarea>
           </div>
-
-          <input type="submit" class="btn btn-dark" />
+          <input type="submit" value="Send" class="btn btn-dark" />
         </form>
       </div>
+      <!-- <div class="map"></div> -->
       <iframe
-        class="map"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d92005.31653245274!2d18.31295121545814!3d43.893825619004346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4758cbb1ed719bd1%3A0x562ecda6de87b33e!2sSarajevo!5e0!3m2!1sen!2sba!4v1566144175818!5m2!1sen!2sba"
-      ></iframe>
+      class="map"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d92005.31653245274!2d18.31295121545814!3d43.893825619004346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4758cbb1ed719bd1%3A0x562ecda6de87b33e!2sSarajevo!5e0!3m2!1sen!2sba!4v1566144175818!5m2!1sen!2sba"
+    ></iframe>
     </section>
 
     <!-- Footer -->
     <footer id="main-footer" class="bg-white text-center py-1">
       <div class="container">
         <img
-          src="./img/evolWE.jpg"
+          src="../img/evolWE.jpg"
           width="356px"
           height="100px"
           class="img-fluid"
         /><img />
-        <p>Copyright &copy; 2019, evolWE &trade; All Rights Reserved &copy;</p>
+        <p>Copyright &copy; 2022, evolWE &trade; All Rights Reserved &copy;</p>
       </div>
     </footer>
 
@@ -231,13 +225,13 @@
     ></script>
 
     <!-- Local JS File -->
-    <script src="js/main.js"></script>
+    <script src="../js/main.js"></script>
 
     <!-- Google Maps -->
-    <!-- <script
+    <script
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDoZg2Es_GrQHZf_52j2-xZ3cTfBCR0HII&callback=initMap"
       async
       defer
-    ></script> -->
+    ></script>
   </body>
 </html>
