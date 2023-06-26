@@ -153,7 +153,7 @@ p {
 
 /* Showcase */
 #showcase {
-  background: #333 url("../img/showcase.jpg") no-repeat center center/cover;
+  background: #333 url("../img/showcase.webp") no-repeat center center/cover;
   height: 100vh;
   color: #fff;
 }
@@ -243,41 +243,41 @@ img {
   display: block;
 }
 
-    #contact {
-      display: flex;
-    }
-    
-    .contact-form {
-      border: 2px solid #212121;
-    }
-    
-    .people {
-      margin-top: 1rem;
-    }
-    
-    .map {
-      border: 2px solid #682377;
-      border-left: none;
-    }
-    
-    #contact .map,
-    #contact .contact-form {
-      flex: 1;
-    }
-    
-    #contact .contact-form .form-group {
-      margin: 0.75rem;
-    }
-    
-    #contact .contact-form label {
-      display: block;
-    }
-    
-    #contact .contact-form input,
-    #contact .contact-form textarea {
-      width: 100%;
-      padding: 0.5rem;
-    }
+#contact {
+  display: flex;
+}
+
+.contact-form {
+  border: 2px solid #212121;
+}
+
+.people {
+  margin-top: 1rem;
+}
+
+.map {
+  border: 2px solid #682377;
+  border-left: none;
+}
+
+#contact .map,
+#contact .contact-form {
+  flex: 1;
+}
+
+#contact .contact-form .form-group {
+  margin: 0.75rem;
+}
+
+#contact .contact-form label {
+  display: block;
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+}
 
 /* MAKE THE GOOGLE MAPS RESPONSIVE */
 .map-responsive {
@@ -378,4 +378,3 @@ img {
   font-size: 1.2rem;
   color: #666;
 }
-
